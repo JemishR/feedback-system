@@ -1,6 +1,7 @@
 # Feedback System
 
-A modern feedback system built with Laravel and React.
+## About
+A modern, full-stack feedback and roadmap management system built with a robust Laravel (PHP) backend and a dynamic React (TypeScript) frontend. This platform allows users to submit, vote on, and discuss feature requests, while providing administrators with a powerful dashboard to manage feedback and publish changelogs.
 
 ## Features
 
