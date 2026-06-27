@@ -10,22 +10,9 @@ CHANGELOG.md export-ignore
 README.md export-ignore
 .github/workflows/browser-tests.yml export-ignore
 
-# Enforce language detection for PHP (Laravel) and JS/TS (React)
-*.php linguist-language=PHP
-*.jsx linguist-language=JavaScript
-*.tsx linguist-language=TypeScript
-*.ts linguist-language=TypeScript
-*.js linguist-language=JavaScript
-
-# Hide generated/vendor UI components from language stats
-resources/js/components/ui/* linguist-vendored
-resources/js/actions/* linguist-vendored
-resources/js/routes/* linguist-vendored
-resources/js/pages/public/* linguist-vendored
-resources/js/hooks/* linguist-generated
-resources/js/layouts/* linguist-generated
-resources/js/types/* linguist-generated
-components.json linguist-vendored
-eslint.config.js linguist-vendored
-tsconfig.json linguist-vendored
-vite.config.ts linguist-vendored
+# Mark frontend TypeScript/React as generated so PHP is shown as primary language
+*.ts linguist-vendored
+*.tsx linguist-vendored
+*.js linguist-vendored
+*.jsx linguist-vendored
+*.css linguist-vendored
