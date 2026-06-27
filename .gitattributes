@@ -10,9 +10,13 @@ CHANGELOG.md export-ignore
 README.md export-ignore
 .github/workflows/browser-tests.yml export-ignore
 
-# Mark frontend TypeScript/React as generated so PHP is shown as primary language
+# Auto-generated Wayfinder route/action files — not hand-written code
 *.ts linguist-vendored
-*.tsx linguist-vendored
+
+# Shadcn UI components — vendored UI library
+resources/js/components/ui/*.tsx linguist-vendored
+
+# Config/tooling files
 *.js linguist-vendored
 *.jsx linguist-vendored
 *.css linguist-vendored
