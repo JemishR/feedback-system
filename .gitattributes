@@ -16,6 +16,16 @@ README.md export-ignore
 # Shadcn UI components — vendored UI library
 resources/js/components/ui/*.tsx linguist-vendored
 
+# Laravel Breeze scaffolded auth pages — boilerplate
+resources/js/pages/auth/*.tsx linguist-vendored
+
+# Scaffolded layouts and utility hooks
+resources/js/layouts/*.tsx linguist-vendored
+resources/js/layouts/app/*.tsx linguist-vendored
+resources/js/layouts/auth/*.tsx linguist-vendored
+resources/js/layouts/settings/*.tsx linguist-vendored
+resources/js/hooks/*.tsx linguist-vendored
+
 # Config/tooling files
 *.js linguist-vendored
 *.jsx linguist-vendored
