@@ -9,3 +9,10 @@
 CHANGELOG.md export-ignore
 README.md export-ignore
 .github/workflows/browser-tests.yml export-ignore
+
+# Enforce language detection for PHP (Laravel) and JS/TS (React)
+*.php linguist-language=PHP
+*.jsx linguist-language=JavaScript
+*.tsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
+*.js linguist-language=JavaScript
