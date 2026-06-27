@@ -16,3 +16,10 @@ README.md export-ignore
 *.tsx linguist-language=TypeScript
 *.ts linguist-language=TypeScript
 *.js linguist-language=JavaScript
+
+# Hide generated/vendor UI components from language stats
+resources/js/components/ui/* linguist-vendored
+components.json linguist-vendored
+eslint.config.js linguist-vendored
+tsconfig.json linguist-vendored
+vite.config.ts linguist-vendored
