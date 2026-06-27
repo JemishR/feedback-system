@@ -19,9 +19,12 @@ README.md export-ignore
 
 # Hide generated/vendor UI components from language stats
 resources/js/components/ui/* linguist-vendored
-resources/js/actions/** linguist-vendored
-resources/js/routes/** linguist-vendored
-resources/js/pages/public/** linguist-vendored
+resources/js/actions/* linguist-vendored
+resources/js/routes/* linguist-vendored
+resources/js/pages/public/* linguist-vendored
+resources/js/hooks/* linguist-generated
+resources/js/layouts/* linguist-generated
+resources/js/types/* linguist-generated
 components.json linguist-vendored
 eslint.config.js linguist-vendored
 tsconfig.json linguist-vendored
